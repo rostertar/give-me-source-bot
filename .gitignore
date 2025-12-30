@@ -75,5 +75,7 @@ flycheck_*.el
 # Go workspace file
 go.work
 
-# End of https://www.toptal.com/developers/gitignore/api/emacs,go
+# go.sum ignoring
+go.sum
 
+# End of https://www.toptal.com/developers/gitignore/api/emacs,go
