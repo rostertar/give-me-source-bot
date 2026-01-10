@@ -7,6 +7,6 @@ type DB interface {
 	AlterChat(*Chat) error
 	GetRequest(Id int64) *Request
 	AlterRequest(*Request) error
-	GetMedia(Id int64) *Media
+	GetMedia(Id uint64) *Media
 	AlterMedia(*Media) error
 }
